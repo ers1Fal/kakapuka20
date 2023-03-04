@@ -1,0 +1,54 @@
+.Overflow{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index:10;
+    overflow:hidden;
+}
+.SideBlock{
+    width: 385px;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    z-index: 50 ;
+    overflow:hidden;
+    top:0;
+    right: 0;
+    transition: 0.5s;
+}
+#topCart{
+    margin:30px;
+}
+.CartItems{
+    display: flex;
+    flex-direction: column;
+}
+.CartItem{
+    display: flex;
+    margin: 25px;
+    border-radius: 10px;
+    border: 1px solid #f3f3f3;
+    position: relative;
+    width: 325px;
+    height: 140px;
+}
+.CartItem #CartItemImg{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin: 10px;
+}
+.CartItem .ItemText{
+    width: 150px;
+    margin: 24px;
+}
+.close{
+    width: 10px;
+    height: 10px;
+}
+#fotocarz{
+    width: 150px;
+    height: 100px;
+}
