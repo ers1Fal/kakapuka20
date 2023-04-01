@@ -14,7 +14,7 @@ function Main() {
 
     let cros=[
         {id:1,name: "Nike air 1 ", cost:"14.990 рублей", img: "https://sneakernews.com/wp-content/uploads/2020/01/nike-air-force-1-high-334031-015-4.jpg"},
-        {id:2,name: "Nike air 1 blue", cost:"1.990 рублей", img: "https://www.football-mania.ru/f/product/cz5478_401_41_web.jpg"},
+        {id:2,name: "Бархатные тяги", cost:"1.990 000 рублей", img: "https://www.football-mania.ru/f/product/cz5478_401_41_web.jpg"},
         {id:3,name: "Nike air 1 white", cost:"12.990 рублей", img: "https://sneakernews.com/wp-content/uploads/2020/07/nike-air-force-1-low-DA4660-100-0.jpg"},
         {id:4,name: "Nike air 1 white", cost:"12.990 рублей", img: "https://sneakernews.com/wp-content/uploads/2020/07/nike-air-force-1-low-DA4660-100-0.jpg"},
         {id:5,name: "Nike air 1 white", cost:"12.990 рублей", img: "https://sneakernews.com/wp-content/uploads/2020/07/nike-air-force-1-low-DA4660-100-0.jpg"},

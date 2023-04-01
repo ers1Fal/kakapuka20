@@ -72,8 +72,26 @@ function Cart() {
                             <img src="https://www.football-mania.ru/f/product/cz5478_401_41_web.jpg" id='fotocarz'/>
                         </div>
                         <div className="ItemText">
-                            <p>Nike air 1</p>
-                            <p>1 990р</p>
+                            <p>Бархатные тяги</p>
+                            <p>1 990 000р</p>
+                        </div>
+                        {/* <div className="CountButton">
+                            <img src="img/plus.png"/>
+                            <input type='text' maxLength={2}/>
+                            <img src="img/plus.png"/>
+                        </div> */}
+                    </div>
+                </div> 
+
+                <div className="CartItems">
+                    <div className="CartItem">
+                        <img src="" id="CartIteming"/>
+                        <div className="RemoveButton">
+                            <img src="https://sneakernews.com/wp-content/uploads/2020/07/nike-air-force-1-low-DA4660-100-0.jpg" id='fotocarz'/>
+                        </div>
+                        <div className="ItemText">
+                            <p>Nike force 1</p>
+                            <p>12 990р</p>
                         </div>
                         {/* <div className="CountButton">
                             <img src="img/plus.png"/>
@@ -113,9 +131,15 @@ function Cart() {
     return <div className='mainCart'>
         <div className="Overflow" style={styleOverflow} onClick={()=> SetOpenCart(false)}></div>
             
-            <div className="SideBlock" style={styleSideBlock}>{content}</div>    
+            <div className="SideBlock" style={styleSideBlock}>
+                <div className='scroll'>
+                {content}
+            </div>    
+        
+        
+
         </div>
-       
+       </div>
 
 
 

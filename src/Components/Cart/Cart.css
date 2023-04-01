@@ -1,6 +1,6 @@
 .Overflow{
     width: 100%;
-    min-height: 100vh;
+    min-height: 1000vh;
     background-color: rgba(0,0,0,0.5);
     position: fixed;
     z-index:10;
@@ -9,14 +9,17 @@
 .SideBlock{
     width: 385px;
     max-width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #fff;
     position: fixed;
     z-index: 50 ;
-    overflow:hidden;
+    overflow:auto;
     top:0;
     right: 0;
     transition: 0.5s;
+}
+.scroll{
+    overflow-wrap: scroll;
 }
 #topCart{
     margin:30px;
