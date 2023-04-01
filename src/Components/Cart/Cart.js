@@ -43,21 +43,61 @@ function Cart() {
                     <div className="element ms-auto"><img scr="img/close.png" onClick={()=>SetOpenCart (false)} id='close'/></div>
                 </Stack>
    
-                  <div className="CartItems">
+                
+
+
+           
+                <div className="CartItems">
                     <div className="CartItem">
                         <img src="" id="CartIteming"/>
+                        <div className="RemoveButton">
+                            <img src="https://sneakernews.com/wp-content/uploads/2020/01/nike-air-force-1-high-334031-015-4.jpg" id='fotocarz'/>
+                        </div>
                         <div className="ItemText">
                             <p>Nike air 1</p>
                             <p>14 990р</p>
                         </div>
-                        <div className="RemoveButton">
-                            <img src="https://sneakernews.com/wp-content/uploads/2020/01/nike-air-force-1-high-334031-015-4.jpg" id='fotocarz'/>
-                        </div>
-                        <div className="CountButton">
+                        {/* <div className="CountButton">
                             <img src="img/plus.png"/>
                             <input type='text' maxLength={2}/>
                             <img src="img/plus.png"/>
+                        </div> */}
+                    </div>
+                </div> 
+
+                <div className="CartItems">
+                    <div className="CartItem">
+                        <img src="" id="CartIteming"/>
+                        <div className="RemoveButton">
+                            <img src="https://www.football-mania.ru/f/product/cz5478_401_41_web.jpg" id='fotocarz'/>
                         </div>
+                        <div className="ItemText">
+                            <p>Nike air 1</p>
+                            <p>1 990р</p>
+                        </div>
+                        {/* <div className="CountButton">
+                            <img src="img/plus.png"/>
+                            <input type='text' maxLength={2}/>
+                            <img src="img/plus.png"/>
+                        </div> */}
+                    </div>
+                </div> 
+
+                <div className="CartItems">
+                    <div className="CartItem">
+                        <img src="" id="CartIteming"/>
+                        <div className="RemoveButton">
+                            <img src="https://sneakernews.com/wp-content/uploads/2020/07/nike-air-force-1-low-DA4660-100-0.jpg" id='fotocarz'/>
+                        </div>
+                        <div className="ItemText">
+                            <p>Nike force 1</p>
+                            <p>12 990р</p>
+                        </div>
+                        {/* <div className="CountButton">
+                            <img src="img/plus.png"/>
+                            <input type='text' maxLength={2}/>
+                            <img src="img/plus.png"/>
+                        </div> */}
                     </div>
                 </div> 
                 

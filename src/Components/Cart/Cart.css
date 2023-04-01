@@ -41,7 +41,7 @@
     margin: 10px;
 }
 .CartItem .ItemText{
-    width: 150px;
+    width: 200px;
     margin: 24px;
 }
 .close{
@@ -49,6 +49,8 @@
     height: 10px;
 }
 #fotocarz{
-    width: 150px;
-    height: 100px;
+    width: 190px;
+    height: 140px;
+    display: flex;
+    align-items: flex-start;
 }
